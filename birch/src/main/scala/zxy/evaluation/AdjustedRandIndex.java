@@ -35,7 +35,6 @@ public class AdjustedRandIndex {
             }
         }
 
-        // Marginals
         int[] count1 = new int[n1];
         int[] count2 = new int[n2];
 

@@ -1,6 +1,5 @@
 package zxy.birch
 
-
 import org.apache.log4j.{FileAppender, Level, Logger, PatternLayout}
 import org.apache.spark.{SparkConf, SparkContext}
 import scopt.OptionParser

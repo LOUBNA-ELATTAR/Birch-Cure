@@ -5,7 +5,6 @@ import org.apache.spark.mllib.clustering.{KMeans, KMeansModel}
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
 import org.apache.spark.rdd.RDD
 
-
 class AdvancedBirch(val k: Int = 0, nMaxBranch: Int = DefaultParam.MAX_BRANCH) extends Serializable {
   var kmeans: KMeansModel = null
 
